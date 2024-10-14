@@ -1,0 +1,30 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+}
+
+h1 {
+  font-size: 82px;
+  font-weight: 400;
+  line-height: 98.4px;
+}
+
+h2 {
+  font-size: 82px;
+  font-weight: 400;
+  line-height: 98.4px;
+}
+
+img {
+  display: block;
+}
+
+.logo-32 {
+  width: 32px;
+  height: 32px;
+}
+
+.logo-66 {
+  width: 66px;
+  height: 66px;
+}

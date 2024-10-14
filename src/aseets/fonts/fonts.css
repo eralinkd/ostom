@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "Ginka";
+  src: url("./Ginka/GinkaTRIAL-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ginka";
+  src: url("./Ginka/GinkaTRIAL-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ginka";
+  src: url("./Ginka/GinkaTRIAL-Italic.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Ginka";
+  src: url("./Ginka/GinkaTRIAL-BoldItalic.otf") format("opentype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Ginka";
+  src: url("./Ginka/GinkaTRIAL-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ginka";
+  src: url("./Ginka/GinkaTRIAL-LightItalic.otf") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Ginka";
+  src: url("./Ginka/GinkaTRIAL-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ginka";
+  src: url("./Ginka/GinkaTRIAL-MediumItalic.otf") format("opentype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Ginka";
+  src: url("./Ginka/GinkaTRIAL-Book.otf") format("opentype");
+  font-weight: 450;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ginka";
+  src: url("./Ginka/GinkaTRIAL-BookItalic.otf") format("opentype");
+  font-weight: 450;
+  font-style: italic;
+}
+
+* {
+  font-family: "Ginka", sans-serif;
+}
+
+.w-450 {
+  font-weight: 450;
+}
+
+.w-400 {
+  font-weight: 400;
+}
+
+.f-14 {
+  font-size: 14px;
+  line-height: 16.8px;
+}
+
+.f-16 {
+  font-size: 16px;
+  line-height: 19.2px;
+}
+
+.f-20 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
