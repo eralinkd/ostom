@@ -1,0 +1,34 @@
+.header {
+  height: 91px;
+  display: flex;
+  padding: 0 46px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header img {
+  width: 129.19px;
+  height: 31.16px;
+}
+
+.header ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    width: 490px;
+    height: 41px;
+    overflow: hidden;
+    background: linear-gradient(180deg, #111111 8.5%, rgba(38, 38, 38, 0.64) 100%);
+    border-radius: 71px;
+    border: 1px solid #262626;
+    backdrop-filter: blur(4px);
+    padding: 0 22px 0 16px;
+}
+
+.header ul li {
+    text-align: center;
+}
+
+.header ul a{
+    font-weight: 450;
+}

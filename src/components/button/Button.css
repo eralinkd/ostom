@@ -1,0 +1,17 @@
+.UI_button {
+    cursor: pointer;
+    width: 117px;
+    height: 28px;
+    background: transparent;
+    border-radius: 20px;
+    border: 1px solid #363636;
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.UI_button.big {
+    height: 41px;
+    border-radius: 71px;
+}

@@ -3,6 +3,14 @@
     --white: #ffffff;
 }
 
+body {
+  background-color: var(--black);
+  font-size: 14px;
+  font-family: "Ginka", sans-serif;
+  color: var(--white);
+  overflow-x: hidden;
+}
+
 h1 {
   font-size: 82px;
   font-weight: 400;

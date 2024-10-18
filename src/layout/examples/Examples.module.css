@@ -1,0 +1,25 @@
+.container {
+    max-width: 1201px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 70px;
+    row-gap: 40px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.line {
+    font-size: 219px;
+    line-height: 100%;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 60px;
+    transition: all 0.7s;
+    padding-left: 100vw;
+    width: 100vw;
+}
+
+.line:hover {
+    padding-left: 0px
+}

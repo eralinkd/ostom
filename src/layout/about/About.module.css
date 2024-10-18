@@ -1,0 +1,35 @@
+.about {
+    background-image: url(../../aseets/img/about-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: calc(100vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -91px;
+}
+
+.container {
+    max-width: 1201px;
+    width: 100%;
+    min-height: 201px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.container .heading {
+    width: 494px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.container .info {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}

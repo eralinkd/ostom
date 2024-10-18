@@ -1,2 +1,10 @@
 meta description
-favicon
+animations
+mobile view
+cards info
+buttons onlick
+example cards border
+header navigation
+
+hover + active states
+footer links

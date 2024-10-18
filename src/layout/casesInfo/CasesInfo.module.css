@@ -1,0 +1,8 @@
+.cases {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 1392px;
+    margin: auto;
+    margin-top: 60px;
+}

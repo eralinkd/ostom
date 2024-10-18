@@ -1,0 +1,15 @@
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caseCards {
+    max-width: 1225px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 11px;
+    margin: auto;
+    margin-top: 40px;
+}

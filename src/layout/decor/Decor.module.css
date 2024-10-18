@@ -1,0 +1,15 @@
+.decor {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../aseets/img/decor-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.decor h1 {
+    width: 961px;
+    text-align: center;
+}

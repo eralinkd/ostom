@@ -1,0 +1,42 @@
+.about {
+    background-image: url(../../aseets/img/what-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    width: 100%;
+    height: calc(100vh);
+    min-height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+.container {
+    max-width: 1201px;
+    width: 100%;
+    min-height: 201px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .heading {
+    width: 494px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.container .info {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    padding-top: 70px;
+}
+
+.container .info p.big {
+    width: 463px;
+}
