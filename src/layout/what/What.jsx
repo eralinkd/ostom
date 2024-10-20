@@ -3,7 +3,7 @@ import styles from './What.module.css'
 
 function What() {
     return (
-        <section className={styles.about}>
+        <section id='portfolio' className={styles.about}>
             <div className={styles.container}>
                 <div className={styles.heading}>
                     <InfoBar text='What is RPA?'/>

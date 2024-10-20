@@ -13,3 +13,52 @@
     margin: auto;
     margin-top: 40px;
 }
+
+@media screen and (max-width: 1200px) {
+    .galleryWrapper {
+        overflow: hidden;
+        width: 85%;
+        position: relative;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .caseCards {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        width: 100%;
+        flex-wrap: nowrap;
+        gap: 0;
+    }
+
+    .cardWrapper {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .indicatorWrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .indicatorLine {
+        display: flex;
+        width: 85%;
+        height: 2px;
+        background-color: #363636;
+        position: relative;
+    }
+
+    .indicatorSegment {
+        flex: 1;
+        height: 100%;
+        background-color: transparent;
+        transition: background-color 0.3s;
+    }
+
+    .indicatorSegment.active {
+        background-color: #fff;
+    }
+}

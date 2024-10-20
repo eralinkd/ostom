@@ -108,3 +108,15 @@
 .bold {
   font-weight: bold;
 }
+
+@media screen and (max-width: 1200px) {
+  .f-20 {
+    font-size: 18px;
+    line-height: 21.6px;
+  }
+
+  .f-48 {
+    font-size: 32px;
+    line-height: 30.4px;
+  }
+}

@@ -26,7 +26,7 @@ function CaseInfo(p) {
             <div className="container">
                 <div className="info">
                     <p className='f-48'>{props.title}</p>
-                    <p className='f-20'>{props.description}</p>
+                    <p className='f-16'>{props.description}</p>
                 </div>
                 <div className='left-container'>
                     <div className="text">

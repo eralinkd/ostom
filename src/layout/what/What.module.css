@@ -40,3 +40,46 @@
 .container .info p.big {
     width: 463px;
 }
+
+
+@media screen and (max-width: 1200px) {
+    .about {
+        width: 100%;
+        margin: auto;
+        min-height: auto;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 0;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 80px;
+        padding: 0 10% 86px 10%;
+        background-position: initial;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container .heading {
+        width: 210px;
+        display: flex;
+        flex-direction: column;
+        gap: 13px;
+    }
+
+    .container .info {
+        width: 345px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-top: 30px;
+    }
+
+    .container .info p.big {
+        width: 345px;
+    }
+}

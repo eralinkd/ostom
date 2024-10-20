@@ -11,24 +11,122 @@
   height: 31.16px;
 }
 
-.header ul {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    align-items: center;
-    width: 490px;
-    height: 41px;
-    overflow: hidden;
+.header>ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  width: 490px;
+  height: 41px;
+  overflow: hidden;
+  background: linear-gradient(180deg, #111111 8.5%, rgba(38, 38, 38, 0.64) 100%);
+  border-radius: 71px;
+  border: 1px solid #262626;
+  backdrop-filter: blur(4px);
+  padding: 0 22px 0 16px;
+}
+
+.header>ul li {
+  text-align: center;
+}
+
+.header>ul a {
+  font-weight: 450;
+}
+
+.header .mobileHeader {
+  display: none;
+}
+
+.mobileNav {
+  display: none;
+}
+
+.languages {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .header>ul,
+  .header>div,
+  .header>img {
+    display: none;
+  }
+
+  .header {
+    border-radius: 20px;
     background: linear-gradient(180deg, #111111 8.5%, rgba(38, 38, 38, 0.64) 100%);
-    border-radius: 71px;
     border: 1px solid #262626;
     backdrop-filter: blur(4px);
-    padding: 0 22px 0 16px;
-}
+    height: 43px;
+    width: 90%;
+    padding: 0;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 22px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.2s;
+    overflow: hidden;
+    gap: 5%;
+    flex-direction: column;
+  }
 
-.header ul li {
-    text-align: center;
-}
+  .header .mobileHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    height: 41px;
+  }
 
-.header ul a{
+  .header img {
+    width: 83px;
+  }
+
+  .header .burger {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .header .burger div {
+    width: 26px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+  .header.open {
+    align-items: flex-start;
+    height: calc(100vh - 44px);
+    padding-bottom: 40px;
+  }
+
+  .tabs {
+    flex-direction: column;
+    gap: 95px;
+    font-size: 40px;
     font-weight: 450;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+  }
+
+  .mobileNav {
+    display: none;
+    width: 100%;
+  }
+
+  .header.open .mobileNav {
+    display: block;
+  }
+  
+  .languages {
+    display: block;
+  }
 }

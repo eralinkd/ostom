@@ -13,3 +13,14 @@
     width: 961px;
     text-align: center;
 }
+
+@media screen and (max-width: 1200px) {
+    .decor {
+        height: 30vh;
+    }
+
+    .decor h1 {
+        width: 80%;
+        text-align: center;
+    }
+}

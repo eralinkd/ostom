@@ -1,8 +1,73 @@
-.cases {
+.heading {
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    max-width: 1392px;
+    align-items: center;
+}
+
+.caseCards {
+    max-width: 1225px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 11px;
     margin: auto;
-    margin-top: 60px;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 1200px) {
+    .galleryWrapper {
+        overflow: hidden;
+        width: 85%;
+        position: relative;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .caseCards {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        width: 100%;
+        flex-wrap: nowrap;
+        gap: 0;
+    }
+
+    .cardWrapper {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .indicatorWrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .indicatorLine {
+        display: flex;
+        width: 80%;
+        height: 2px;
+        background-color: #545454;
+        position: relative;
+    }
+
+    .indicatorSegment {
+        flex: 1;
+        height: 100%;
+        background-color: transparent;
+        transition: background-color 0.3s;
+    }
+
+    .indicatorSegment.active {
+        background-color: #fff;
+    }
+
+    .cases {
+        width: 100%;
+        flex-wrap: nowrap;
+        gap: 30px;
+        max-width: 1392px;
+        margin: auto;
+        margin-top: 60px;
+    }
 }

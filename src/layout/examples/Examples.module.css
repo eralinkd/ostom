@@ -1,5 +1,5 @@
 .container {
-    max-width: 1201px;
+    max-width: 1201px;;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -10,16 +10,24 @@
 }
 
 .line {
-    font-size: 219px;
+    font-size: 80px;
     line-height: 100%;
     font-weight: 300;
     text-align: center;
     margin-top: 60px;
     transition: all 0.7s;
-    padding-left: 100vw;
+    /* padding-left: 100vw; */
     width: 100vw;
 }
 
 .line:hover {
     padding-left: 0px
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 85%;
+        gap: 30px;
+        margin-top: 50px;
+    }
 }

@@ -4,7 +4,7 @@ import styles from './About.module.css'
 
 function About() {
     return (
-        <section className={styles.about}>
+        <section id='about' className={styles.about}>
             <div className={styles.container}>
                 <div className={styles.heading}>
                     <InfoBar text='About us'/>

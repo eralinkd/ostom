@@ -2,12 +2,28 @@
     width: 181px;
     min-height: 224px;
     border-radius: 5px;
-    /* border: 1px solid white; */
     padding: 15px 0 25px 0;
     display: flex;
     flex-direction: column;
     gap: 35px;
     box-sizing: border-box;
+    position: relative;
+    background: linear-gradient(44.28deg, #000000 43.97%, #1E1E1E 99.11%);
+}
+
+.UI_exampleCard::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    min-width: 181px;
+    height: 100%;
+    min-height: 14px;
+    background-image: url(../../aseets/img/example-card-border.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;
 }
 
 .UI_exampleCard .number {
@@ -21,4 +37,16 @@
 
 .UI_exampleCard .number .title {
     width: 147px;
+}
+
+@media screen and (max-width: 1200px) {
+    .UI_exampleCard {
+        width: 150px;
+        width: 44%;
+        min-height: 200px;
+    }
+
+    .UI_exampleCard::before {
+        min-width: 150px;
+    }
 }

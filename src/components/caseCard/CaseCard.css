@@ -62,3 +62,13 @@
 .pr-30 {
     padding-right: 30px;
 }
+
+.m-h-48 {
+    min-height: 48px;
+}
+
+@media screen and (max-width: 1200px) {
+    .UI_caseCard_wrapper {
+        width: 100%;
+    }
+}   

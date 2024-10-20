@@ -33,3 +33,39 @@
     flex-direction: column;
     gap: 34px;
 }
+
+@media screen and (max-width: 1200px) {
+    .about {
+        background-image: url(../../aseets/img/about-bg-m.png);
+        background-size: 100%;
+        height: fit-content;
+        margin-top: 0;
+        padding: 89px 0;
+        background-position: top;
+
+    }
+    .container .heading {
+        width: 85%;
+        margin: auto;
+        gap: 13px;
+    }
+    .heading img {
+        display: none;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .container .info {
+        flex-direction: row;
+        width: 80%;
+        margin: auto;
+        justify-content: space-between;
+    }
+
+    .container .info p {
+        width: 148px;
+    }
+}

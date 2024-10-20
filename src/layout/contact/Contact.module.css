@@ -1,0 +1,157 @@
+.contact {
+    min-height: 1300px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 240px;
+    gap: 25px;
+    background-image: url(../../aseets/img/Contact/bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.contact h1 {
+    max-width: 720px;
+    text-align: center;
+}
+
+.contact p {
+    max-width: 412px;
+    text-align: center;
+}
+
+.contact form {
+    position: fixed;
+    max-width: 553px;
+    width: 100%;
+    max-height: 90vh;
+    width: 100%;
+    box-sizing: border-box;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    z-index: -20;
+    background: linear-gradient(159.4deg, #000000 5.97%, #1F1F1F 86.98%);
+    border: 2px solid #585858;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    padding: 55px 30px 25px 30px;
+    transition: all 0.5s;
+    overflow-y: auto;
+    opacity: 0;
+}
+
+.contact form.visible {
+    opacity: 1;
+    z-index: 10;
+}
+
+.contact form .buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact form .buttonContainer div {
+    border: 2px solid #585858;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    transition: all 0.3s;
+}
+
+.overlay.visible {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.inputsContainer {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    max-width: 488px;
+    margin-bottom: -15px;
+}
+.input {
+    width: 100%;
+    max-width: 488px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.input input,
+.input textarea {
+    height: 47px;
+    line-height: 47px;
+    border-radius: 5px;
+    background-color: #000000;
+    border: 2px solid #5B5B5B;
+    padding: 0 15px;
+    color: white;
+}
+
+.input textarea {
+    max-width: 488px;
+    height: auto;
+    min-height: 105px;
+    resize: vertical;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+    opacity: 1;
+}
+
+@media screen and (max-width: 1200px) {
+    .contact {
+        width: 100%;
+        padding: 0 10% 300px 10%;
+        margin-top: 80px;
+        min-height: auto;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        background-image: url(../../aseets/img/Contact/bg.png);
+        background-repeat: no-repeat;
+        position: relative;
+        background-size: 110%;
+        background-position: center;
+        background-position-y: 90%;
+    }
+
+    .contact form {
+        max-width: 90vw;
+    }
+
+    .inputsContainer {
+        display: flex;
+        gap: 15px;
+        width: 100%;
+        max-width: 488px;
+        margin-bottom: -25px;
+        flex-direction: column;
+    }
+}
